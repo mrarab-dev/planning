@@ -1,4 +1,125 @@
-body{
-    background-color: #9053c7 !important;
+@font-face {
+  font-family: iransans;
+  src: url(/assets/fonts/IRANSansWeb.woff2);
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: iransansMedium;
+  src: url(/assets/fonts/IRANSansWeb_Medium.woff2);
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: iransansBold;
+  src: url(/assets/fonts/IRANSansWeb_Bold.woff2);
+  font-style: normal;
+  font-display: swap;
+}
+/*/////////////////////////////////////// login  /////////////////////////////// */
+body {
+  font-family: iransans;
+  background-color: #f5f5f5 !important;
+  
+}
+.login_wrappr{
+padding: 5% 0px;
+}
+.p_a{
+   font-family: iransans;
+   text-decoration: none;
+   color: black;
+}
+.login_body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link_register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffff;
+  border-right: 4px solid #72aee6;
+  border-top: 1px solid #e0e0e2;
+  border-bottom: 1px solid #e0e0e2;
+  border-left: 1px solid #e0e0e2;
+  width: 30%;
+  font-size: 14px;
+  margin: 0px;
+  border-radius: 5px;
+}
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login_main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffff;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  width: 30%;
+}
+.input{
+    width: 60%;
+    height: 50px;
+    margin-top: 30px;
+    font-family: iransans;
+    color: black;
+    border-radius: 5px;
+    border-right: 3px solid #72aee6;
+    border-top: 1px solid #ffff;
+    border-bottom: 1px solid #ffff;
+    border-left: 1px solid #ffff;
+    position: relative;
+    outline: none;
+    line-height: 1.15;
+    box-shadow: 0px 10px 30px -18px;
 
+ }
+ .input::placeholder { 
+    color: black;
+    padding-right:10px ;
+    font-size: 16px;
+  }
+
+ input:focus {
+   border-bottom: 2px solid #5b5fc7;
+   border-radius: 4px 4px 2px 2px;
+ }
+.button_link {
+  width: 60%;
+}
+
+.button_login {
+  width: 100%;
+  padding: 10px 0px;
+  margin-top: 38px;
+  margin-bottom:30px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(
+    90deg,
+    rgba(46, 196, 253, 1) 35%,
+    rgba(156, 66, 255, 1) 100%
+  );
+  color: #ffff;
+  font-family: iransans;
+  font-size: 20px;
+  transition: background-color 1s;
+  cursor: pointer;
+  transition: all 0.7s;
+
+}
+.button_login:hover{
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+/* /////////////////////////////register////////////////////////////////////////////*/
+.login_wrappr_register{
+  padding: 2.5% 0px;
 }
